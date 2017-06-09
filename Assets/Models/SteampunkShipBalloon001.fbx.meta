@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 75f9d83c9abd6b842b5b7eec80acaa58
 timeCreated: 1496938930
 licenseType: Free
+=======
+guid: ab063ca97c6c6864ca56c4a9f67fa200
+timeCreated: 1495839371
+licenseType: Pro
+>>>>>>> refs/remotes/origin/master
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -62,7 +68,11 @@ ModelImporter:
     4300000: SteampunkWing02:polySurface33
     9500000: //RootNode
   materials:
+<<<<<<< HEAD
     importMaterials: 0
+=======
+    importMaterials: 1
+>>>>>>> refs/remotes/origin/master
     materialName: 0
     materialSearch: 1
   animations:
