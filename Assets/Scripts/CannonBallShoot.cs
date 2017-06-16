@@ -35,8 +35,8 @@ public class CannonBallShoot : NetworkBehaviour
         Sound.Play();
         GameObject cannonball = Instantiate(CannonBallPrefab, ShootPosition);
         cannonball.transform.parent = null;
-        NetworkServer.Spawn(cannonball);
         cannonball.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(force, 0, 0));
+        NetworkServer.Spawn(cannonball);
     }
 
     IEnumerator ShootCooldown()
